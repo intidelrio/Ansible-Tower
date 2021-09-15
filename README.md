@@ -9,6 +9,8 @@ yum install -y epel-release
 dnf install langpacks-en glibc-all-langpacks -y
 ```
 Instalar pre-requisitos de Ansible AWX:
+
+
 centos 7
 ```
 yum install -y git gcc gcc-c++ nodejs gettext device-mapper-persistent-data lvm2 bzip2 python-pip yum-utils ansible python3 libselinux-python3 python36-docker
