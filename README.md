@@ -66,9 +66,15 @@ admin_password=password
 
 ```
 
-instalando pip  docker
+Instalando pip  docker
 ```
-yum install python3-pip docker-compose nodejs npm python3-pip git pwgen libselinux-python3 setuptools_rust cryptography wheel pip3 install --upgrade pip
+yum install python3-pip -y 
+pip3 install -y docker-compose
+yum install -y nodejs npm python3-pip git pwgen libselinux-python3 
+pip3 install -y setuptools_rust 
+pip3 install -y cryptography 
+pip3 install -y wheel
+pip3 install --upgrade pip
 ```
 
 Luego ejecutar el playbook para la instalacion:
